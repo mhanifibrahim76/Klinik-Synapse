@@ -6,37 +6,19 @@ import Image from "next/image";
 
 export default function FasilitasPage() {
   const fasilitas = [
-    {
-      name: "Ruang Terapi Wicara",
-      img: "/assets/fasilitas1.jpg",
-    },
-    {
-      name: "Ruang Terapi Okupasi",
-      img: "/assets/fasilitas2.jpg",
-    },
-    {
-      name: "Ruang Sensori Integrasi",
-      img: "/assets/fasilitas3.jpg",
-    },
-    {
-      name: "Ruang Fisioterapi",
-      img: "/assets/fasilitas4.jpg",
-    },
-    {
-      name: "Ruang Tunggu Nyaman",
-      img: "/assets/fasilitas5.jpg",
-    },
-    {
-      name: "Area Bermain Anak",
-      img: "/assets/fasilitas6.jpg",
-    },
+    { img: "/assets/fasilitas1.jpg" },
+    { img: "/assets/fasilitas2.jpg" },
+    { img: "/assets/fasilitas3.jpg" },
+    { img: "/assets/fasilitas4.jpg" },
+    { img: "/assets/fasilitas5.jpg" },
+    { img: "/assets/fasilitas6.jpg" },
   ];
 
   return (
     <section className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
       <Navbar />
 
-      <div className="max-w-7xl mx-auto pb-10 pt-30">
+      <div className="max-w-7xl mx-auto pb-10 pt-32 px-4">
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">
@@ -52,20 +34,15 @@ export default function FasilitasPage() {
           {fasilitas.map((item, index) => (
             <div
               key={index}
-              className="bg-white rounded-3xl shadow-lg hover:shadow-2xl border border-purple-100 overflow-hidden transform hover:-translate-y-2 transition"
+              className="bg-white rounded-2xl shadow-lg hover:shadow-2xl border border-purple-100 overflow-hidden transform hover:-translate-y-2 transition"
             >
               <div className="relative w-full h-64">
                 <Image
                   src={item.img}
-                  alt={item.name}
+                  alt={`Fasilitas ${index + 1}`}
                   fill
                   className="object-cover hover:scale-105 transition duration-700"
                 />
-              </div>
-              <div className="p-6 text-center">
-                <h3 className="text-xl font-semibold text-[#5F4AFF]">
-                  {item.name}
-                </h3>
               </div>
             </div>
           ))}
@@ -83,7 +60,7 @@ export default function FasilitasPage() {
         </div>
       </div>
 
-      <Footer/>
+      <Footer />
     </section>
   );
 }
