@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+
 
 :root {
   --background: #ffffff;
@@ -18,6 +22,12 @@
     --foreground: #ededed;
   }
 }
+
+html, body {
+  overflow-x: hidden;
+  background-color: #faf8ff; /* fallback soft pastel background */
+}
+
 
 body {
   background: var(--background);
