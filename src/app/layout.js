@@ -12,13 +12,47 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Klinik Synapse",
+  title: {
+    default: "Klinik Synapse",
+    template: "%s | Klinik Synapse",
+  },
+
   description:
-    "Klinik tumbuh kembang anak profesional yang menyediakan layanan terapi, psikologi, dan konsultasi anak berkebutuhan khusus dengan pendekatan penuh kasih.",
-   icons: {
-    icon: "/logo.png", 
-    apple: "/logo.png", 
-    shortcut: "/logo.png", 
+    "Klinik tumbuh kembang anak profesional dengan layanan terapi wicara, terapi okupasi, sensori integrasi, psikologi, dan konsultasi tumbuh kembang.",
+
+  keywords: [
+    "klinik tumbuh kembang anak",
+    "terapi wicara",
+    "terapi okupasi",
+    "psikologi anak",
+    "sensori integrasi",
+    "fisioterapi anak",
+    "klinik synapse",
+  ],
+
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+    shortcut: "/logo.png",
+  },
+
+  openGraph: {
+    title: "Klinik Synapse – Terapi & Tumbuh Kembang Anak",
+    description:
+      "Klinik profesional yang menangani tumbuh kembang anak melalui terapi wicara, terapi okupasi, fisioterapi, psikologi, dan asesmen anak.",
+    url: "https://domainkamu.com", // ganti kalau sudah ada domain
+    siteName: "Klinik Synapse",
+    type: "website",
+    locale: "id_ID",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  alternates: {
+    canonical: "https://domainkamu.com", // ganti nanti
   },
 };
 
