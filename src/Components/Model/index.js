@@ -44,7 +44,6 @@ export const services = [
   },
 ];
 
-
 // Daftar kondisi yang ditangani
 export const conditions = [
   {
@@ -82,5 +81,11 @@ export const conditions = [
     description:
       "Kondisi saat otak kesulitan memproses informasi dari pancaindra. Dapat menyebabkan anak menjadi terlalu sensitif atau sebaliknya kurang responsif terhadap rangsangan. Gejalanya antara lain: takut suara keras, sulit dipotong kuku, picky eater, jalan jinjit, takut disentuh, atau takut keramaian.",
     icon: "👂",
+  },
+  {
+    title: "Learning Disability",
+    description:
+      "Gangguan saraf yang mempengaruhi kemampuan otak memproses informasi sehingga anak mengalami kesulitan membaca, menulis, berhitung, berbicara, atau melakukan aktivitas sehari-hari.",
+    icon: "🧠",
   },
 ];
