@@ -20,6 +20,10 @@ export const metadata = {
   description:
     "Klinik tumbuh kembang anak profesional dengan layanan terapi wicara, terapi okupasi, sensori integrasi, psikologi, dan konsultasi tumbuh kembang.",
 
+  verification: {
+    google: "7hvkr2WfhiEMys2znkHLABcSlSqLkqUn3KPte0_d-lE",
+  },
+
   keywords: [
     "klinik tumbuh kembang anak",
     "terapi wicara",
