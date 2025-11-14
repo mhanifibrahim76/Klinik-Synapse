@@ -86,6 +86,12 @@ export const conditions = [
     title: "Learning Disability",
     description:
       "Gangguan saraf yang mempengaruhi kemampuan otak memproses informasi sehingga anak mengalami kesulitan membaca, menulis, berhitung, berbicara, atau melakukan aktivitas sehari-hari.",
-    icon: "🧠",
+    icon: "📖",
+  },
+  {
+    title: "Dyslexia",
+    description:
+      "Gangguan belajar spesifik yang ditandai dengan kesulitan membaca, menulis, mengeja, dan mengenali kata. Disebabkan oleh kelainan saraf pada otak yang memproses bahasa, namun tidak mempengaruhi kecerdasan anak.",
+    icon: "✏️",
   },
 ];
