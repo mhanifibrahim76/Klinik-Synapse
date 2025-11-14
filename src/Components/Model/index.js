@@ -33,7 +33,7 @@ export const services = [
   {
     title: "Pemeriksaan & Konsultasi Psikologi Klinis",
     description:
-      "Meliputi tes IQ, tes kesiapan masuk sekolah, serta konsultasi psikologi lainnya untuk mendukung tumbuh kembang dan kesejahteraan anak.",
+      "Meliputi tes IQ, tes kesiapan masuk sekolah, serta konsultasi psikologi lainnya untuk mendukung tumbuh kembang dan Kemandirian anak.",
     icon: "💭",
   },
   {
