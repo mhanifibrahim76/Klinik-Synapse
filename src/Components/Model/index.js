@@ -94,4 +94,10 @@ export const conditions = [
       "Gangguan belajar spesifik yang ditandai dengan kesulitan membaca, menulis, mengeja, dan mengenali kata. Disebabkan oleh kelainan saraf pada otak yang memproses bahasa, namun tidak mempengaruhi kecerdasan anak.",
     icon: "✏️",
   },
+  {
+    title: "Disabilitas Intelektual",
+    description:
+      "Kondisi keterbatasan signifikan pada fungsi intelektual dan perilaku adaptif yang muncul sebelum usia 18 tahun. Kondisi ini menyebabkan kecerdasan di bawah rata-rata dan mempengaruhi kemampuan dalam kehidupan sehari-hari, sehingga diperlukan dukungan untuk berkembang.",
+    icon: "💡",
+  },
 ];
