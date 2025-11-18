@@ -32,19 +32,23 @@ export const metadata = {
     "sensori integrasi",
     "fisioterapi anak",
     "klinik synapse",
+    "synapse clinic",
+    "asesmen tumbuh kembang",
+    "konsultasi tumbuh kembang anak",
+    "synapse child development",
   ],
 
   icons: {
-    icon: "/logo.png",
-    apple: "/logo.png",
-    shortcut: "/logo.png",
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+    shortcut: "/favicon.png",
   },
 
   openGraph: {
     title: "Klinik Synapse – Terapi & Tumbuh Kembang Anak",
     description:
       "Klinik profesional yang menangani tumbuh kembang anak melalui terapi wicara, terapi okupasi, fisioterapi, psikologi, dan asesmen anak.",
-    url: "https://domainkamu.com", // ganti kalau sudah ada domain
+    url: "https://www.synapschild.com/", // ganti kalau sudah ada domain
     siteName: "Klinik Synapse",
     type: "website",
     locale: "id_ID",
@@ -56,7 +60,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://domainkamu.com", // ganti nanti
+    canonical: "https://www.synapschild.com/", // ganti nanti
   },
 };
 

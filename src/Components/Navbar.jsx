@@ -18,7 +18,7 @@ export default function Navbar() {
           <div className="flex items-center space-x-3">
             <div className="w-12 h-12 flex items-center justify-center">
               <Image
-                src="/logo.png"
+                src="/favicon.png"
                 alt="Logo Synapse"
                 width={48}
                 height={48}
