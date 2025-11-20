@@ -26,6 +26,7 @@ export const metadata = {
 
   keywords: [
     "klinik tumbuh kembang anak",
+    "klinik synapse cipete",
     "terapi wicara",
     "terapi okupasi",
     "psikologi anak",
