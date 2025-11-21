@@ -1,10 +1,10 @@
 export default function sitemap() {
-  const baseUrl = "https://www.honeybunnytherapy.com";
+  const baseUrl = "https://www.synapschild.com";
 
   const urls = [
-    "",          // halaman utama
-    "Layanan",
-    "Fasilitas",
+    "",           // halaman utama
+    "Layanan",    // halaman layanan
+    "Fasilitas",  // halaman fasilitas
   ];
 
   return urls.map((url) => ({

@@ -20,6 +20,9 @@ export const metadata = {
   description:
     "Klinik tumbuh kembang anak profesional dengan layanan terapi wicara, terapi okupasi, sensori integrasi, psikologi, dan konsultasi tumbuh kembang.",
 
+  verification: {
+    google: "7hvkr2WfhiEMys2znkHLABcSlSqLkqUn3KPte0_d-lE",
+  },
 
   keywords: [
     "klinik tumbuh kembang anak",
@@ -46,7 +49,7 @@ export const metadata = {
     title: "Klinik Synapse – Terapi & Tumbuh Kembang Anak",
     description:
       "Klinik profesional yang menangani tumbuh kembang anak melalui terapi wicara, terapi okupasi, fisioterapi, psikologi, dan asesmen anak.",
-    url: "https://www.honeybunnytherapy.com", // ganti kalau sudah ada domain
+    url: "https://www.synapschild.com", // ganti kalau sudah ada domain
     siteName: "Klinik Synapse",
     type: "website",
     locale: "id_ID",
@@ -58,7 +61,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.honeybunnytherapy.com", // ganti nanti
+    canonical: "https://www.synapschild.com", // ganti nanti
   },
 };
 
