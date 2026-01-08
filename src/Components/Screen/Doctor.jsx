@@ -31,7 +31,7 @@ const Doctor = () => {
             {/* Kolom kanan (detail dokter) */}
             <div className="p-8 sm:p-10 md:p-12">
               <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2 whitespace-nowrap overflow-hidden text-ellipsis">
-                dr. Citra Radhita, SpA (K)
+                dr. Citra Raditha, SpA (K)
               </h3>
               <p className="text-purple-600 font-semibold mb-6 text-sm sm:text-base">
                 Spesialis Anak Neurologi
