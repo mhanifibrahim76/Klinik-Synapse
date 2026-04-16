@@ -33,7 +33,7 @@ const Contact = () => {
                 <div>
                   <p className="font-semibold mb-1">WhatsApp / Telepon</p>
                   <a
-                    href="tel:085211975522"
+                    href="https://wa.me/6285211975522"
                     className="text-purple-100 hover:text-white transition"
                   >
                     0852-1197-5522
